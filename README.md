@@ -13,7 +13,7 @@ This desktop application was created to meet the specific needs of Express Lanka
 ## Project Interfaces
 
 ### Home Screen
-![Screenshot 1](Frontend/screenshots/screenshot1.png)
+![Screenshot 1](screenshots/Screenshot1.png)
 
 ### Add Driver
 ![Screenshot 2](Frontend/screenshots/screenshot2.png)
