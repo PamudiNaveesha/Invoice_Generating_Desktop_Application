@@ -16,19 +16,19 @@ This desktop application was created to meet the specific needs of Express Lanka
 ![Screenshot 1](screenshots/Screenshot1.png)
 
 ### Add Driver
-![Screenshot 2](Frontend/screenshots/screenshot2.png)
+![Screenshot 2](screenshots/Screenshot2.png)
 
 ### Add New Hire
-![Screenshot 3](Frontend/screenshots/screenshot3.png)
-![Screenshot 4](Frontend/screenshots/screenshot4.png)
-![Screenshot 5](Frontend/screenshots/screenshot5.png)
+![Screenshot 3](screenshots/Screenshot3.png)
+![Screenshot 4](screenshots/Screenshot4.png)
+![Screenshot 5](screenshots/Screenshot5.png)
 
 ### Drivers List
-![Screenshot 6](Frontend/screenshots/screenshot6.png)
+![Screenshot 6](screenshots/Screenshot6.png)
 
 ### Hires List
-![Screenshot 7](Frontend/screenshots/screenshot7.png)
-![Screenshot 8](Frontend/screenshots/screenshot8.png)
+![Screenshot 7](screenshots/Screenshot7.png)
+![Screenshot 8](screenshots/Screenshot8.png)
 
 ## Technologies Used
 
