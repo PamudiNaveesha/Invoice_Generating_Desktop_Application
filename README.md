@@ -47,7 +47,7 @@ This desktop application was created to meet the specific needs of Express Lanka
 
    ```bash
    git clone https://github.com/PamudiNaveesha/Invoice_Generating_Desktop_Application.git
-   cd your-repo-name
+   cd Invoice_Generating_Desktop_Application
 
 2. **Install dependencies**:
 
