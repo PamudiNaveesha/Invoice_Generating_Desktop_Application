@@ -1,0 +1,57 @@
+{
+  "name": "my-electron-app",
+  "version": "1.0.0",
+  "description": "Hello world!",
+  "main": "main.js",
+  "scripts": {
+    "start": "electron-forge start",
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "package": "electron-forge package",
+    "make": "electron-forge make",
+    "build": "craco build",
+    "react-start": "craco start",
+    "clean": "rimraf ./build && rimraf ./dist"
+  },
+  "author": "Pamudi",
+  "license": "MIT",
+  "devDependencies": {
+    "@babel/plugin-proposal-private-property-in-object": "^7.21.11",
+    "@electron-forge/cli": "^7.4.0",
+    "@electron-forge/maker-deb": "^7.4.0",
+    "@electron-forge/maker-rpm": "^7.4.0",
+    "@electron-forge/maker-squirrel": "^7.4.0",
+    "@electron-forge/maker-zip": "^7.4.0",
+    "@electron-forge/plugin-auto-unpack-natives": "^7.4.0",
+    "@electron-forge/plugin-fuses": "^7.4.0",
+    "@electron/fuses": "^1.8.0",
+    "electron": "^32.1.0",
+    "rimraf": "^5.0.10"
+  },
+  "dependencies": {
+    "@craco/craco": "^7.1.0",
+    "@react-google-maps/api": "^2.19.3",
+    "axios": "^1.7.7",
+    "electron-squirrel-startup": "^1.0.1",
+    "globalthis": "^1.0.4",
+    "jspdf": "^2.5.2",
+    "jspdf-autotable": "^3.8.3",
+    "path-browserify": "^1.0.1",
+    "react": "^18.3.1",
+    "react-dom": "^18.3.1",
+    "react-router-dom": "^6.26.2",
+    "sqlite3": "^5.1.7"
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
+  },
+  "homepage": "./"
+}

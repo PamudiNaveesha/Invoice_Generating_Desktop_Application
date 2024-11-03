@@ -1,0 +1,98 @@
+/* src/components/Customer.css */
+.customer-container {
+    font-family: Arial, sans-serif;
+    max-width: 900px;
+    margin: 20px auto;
+    padding: 20px;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    background-color: #f9f9f9;
+}
+
+.customer-container h1, .customer-container h2 {
+    color: #333;
+    text-align: center;
+}
+
+.customer-container form div {
+    margin-bottom: 15px;
+}
+
+.customer-container label {
+    display: block;
+    font-weight: bold;
+    margin-bottom: 5px;
+    color: #555;
+}
+
+.customer-container input[type="text"],
+.customer-container input[type="date"],
+.customer-container input[type="time"],
+.customer-container select {
+    width: 100%;
+    padding: 8px;
+    box-sizing: border-box;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+.customer-container input[type="radio"] {
+    margin-right: 10px;
+}
+
+.customer-container button {
+    background-color: #007bff;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    margin-right: 10px;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.customer-container button:hover {
+    background-color: #0056b3;
+}
+
+.customer-container .button-group {
+    display: flex;
+    justify-content: flex-start;
+}
+
+.customer-container .radio-group {
+    display: flex;
+    align-items: center;
+}
+
+.customer-container .radio-group label {
+    margin-right: 20px;
+}
+
+.customer-container ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+.customer-container ul li {
+    padding: 10px;
+    border-bottom: 1px solid #ddd;
+}
+
+.customer-container .map-container {
+    margin-top: 20px;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    overflow: hidden;
+}
+
+.customer-container .map-container .leaflet-container {
+    border-radius: 8px;
+}
+
+.required::after {
+    content: '*';
+    color: red;
+    margin-left: 5px;
+  }
+  
